@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jenkinsx--skip-ingress-production
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jenkinsx--skip-ingress-production
+  pipelines: {}
